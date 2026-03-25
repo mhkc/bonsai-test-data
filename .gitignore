@@ -1,2 +1,7 @@
+*.csv
+
 # large files
 *.fastq.gz
+*.fq.gz
+*.fastq
+*.fq
