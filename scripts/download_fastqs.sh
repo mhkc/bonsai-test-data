@@ -55,7 +55,7 @@ awk -F'\t' 'NR > 1 && NF' "$input" | while IFS=$'\t' read -r run study sample ex
 
     for url in "${urls[@]}"; do
         [[ -z "$url" ]] && continue
-        local_url="ftp://$url"
+        local_url="http://$url"
 
         echo "→ $local_url"
 
