@@ -77,8 +77,9 @@ targetDir="/path/to/repo/results/v${jasen_version}/saureus"
 
 # find all new result files
 mkdir -p $targetDir
-tail +2 PRJEB77209.illumina.csv | awk -F',' '{print $1}' | while read -r id; do
-  find $resultPath -name "${id}*" -exec echo cp -R --parents {} "$targetDir" \;
+tail -n +2 PRJEB77209.illumina.csv | awk -F',' '{print $1}' | while read -r id; do
+  cd "$resultPath"
+  find . -name "${id}*" -exec echo cp -R --parents {} "$targetDir" \;
 done
 ```
 
