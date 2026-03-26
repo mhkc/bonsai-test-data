@@ -76,15 +76,31 @@ resultPath=/fs1/results_dev/jasen/saureus
 targetDir="/path/to/repo/results/v${jasen_version}/saureus"
 
 # find all new result files
-mkdir -p $targetDir
+mkdir -p "${targetDir}"
 tail -n +2 PRJEB77209.illumina.csv | awk -F',' '{print $1}' | while read -r id; do
   cd "$resultPath"
   find . -name "${id}*" -exec echo cp -R --parents {} "$targetDir" \;
 done
 ```
 
-Finally subset large BAM files to reduce repo size.
+Finally subset large files to reduce repo size and reindex bam indexes.
 
 ```sh
-find ${targetDir} -name "*.bam" -exec samtools view -b -s 0.05 {} > {} \;
+cd "${targetDir}"
+
+find . -name '*.bam' -print0 | while IFS= read -r -d '' line; do
+  # Create downsampled BAM
+  samtools view -b -s 0.01 "$line" -o "${line}.mini" || continue
+
+  # Replace original only if the new file was created successfully
+  if [ -s "${line}.mini" ]; then
+    rm -- "$line" && mv -- "${line}.mini" "$line"
+  else
+    echo "Warning: downsampled file is empty or missing for: $line" >&2
+    rm -f -- "${line}.mini"
+ fi
+  samtools index "$line"
+done
+
+find . -name '*.fasta' -exec gzip {} \;
 ```
