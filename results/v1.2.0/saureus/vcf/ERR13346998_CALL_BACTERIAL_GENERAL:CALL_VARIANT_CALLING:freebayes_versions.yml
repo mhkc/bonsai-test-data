@@ -1,0 +1,4 @@
+CALL_BACTERIAL_GENERAL:CALL_VARIANT_CALLING:freebayes:
+ freebayes:
+  version: 1.3.6
+  container: /fs1/resources/containers/freebayes.sif

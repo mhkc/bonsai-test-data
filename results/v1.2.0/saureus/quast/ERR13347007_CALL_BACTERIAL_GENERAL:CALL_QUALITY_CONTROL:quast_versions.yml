@@ -1,0 +1,4 @@
+CALL_BACTERIAL_GENERAL:CALL_QUALITY_CONTROL:quast:
+ quast:
+  version: 5.2.0
+  container: /fs1/resources/containers/quast.sif

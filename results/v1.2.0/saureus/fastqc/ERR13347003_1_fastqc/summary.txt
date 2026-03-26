@@ -1,0 +1,10 @@
+PASS	Basic Statistics	ERR13347003_1.gz
+PASS	Per base sequence quality	ERR13347003_1.gz
+PASS	Per sequence quality scores	ERR13347003_1.gz
+FAIL	Per base sequence content	ERR13347003_1.gz
+PASS	Per sequence GC content	ERR13347003_1.gz
+PASS	Per base N content	ERR13347003_1.gz
+WARN	Sequence Length Distribution	ERR13347003_1.gz
+PASS	Sequence Duplication Levels	ERR13347003_1.gz
+PASS	Overrepresented sequences	ERR13347003_1.gz
+PASS	Adapter Content	ERR13347003_1.gz

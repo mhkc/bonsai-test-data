@@ -1,0 +1,17 @@
+[
+   {
+      "id" : "ERR13347002_skesa.fasta",
+      "filename" : "ERR13347002_skesa.fasta",
+      "scheme" : "saureus",
+      "alleles" : {
+         "aroE" : "23",
+         "tpi" : "20",
+         "arcC" : "19",
+         "gmk" : "2",
+         "glpF" : "15",
+         "yqiL" : "15",
+         "pta" : "19"
+      },
+      "sequence_type" : "59"
+   }
+]

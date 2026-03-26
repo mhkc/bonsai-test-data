@@ -1,0 +1,8 @@
+    CALL_BACTERIAL_GENERAL:CALL_SCREENING:virulencefinder:
+     virulencefinder_db:
+      version: 2.0.1
+      container: /fs1/resources/containers/depot.galaxyproject.org-singularity-virulencefinder-3.2.0--pyhdfd78af_0.img
+     virulencefinder:  
+      version: 3.2.0
+      container: /fs1/resources/containers/depot.galaxyproject.org-singularity-virulencefinder-3.2.0--pyhdfd78af_0.img
+    END_VERSIONS

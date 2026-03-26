@@ -1,0 +1,4 @@
+CALL_BACTERIAL_GENERAL:CALL_QUALITY_CONTROL:gambitcore:
+ gambitcore:
+  version: gambitcore
+  container: /fs1/resources/containers/gambitcore.sif

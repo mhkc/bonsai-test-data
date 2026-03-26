@@ -1,0 +1,4 @@
+CALL_BACTERIAL_GENERAL:CALL_SCREENING:amrfinderplus:
+ amrfinderplus:
+  version: 3.11.11
+  container: /fs1/resources/containers/ncbi-amrfinderplus.sif

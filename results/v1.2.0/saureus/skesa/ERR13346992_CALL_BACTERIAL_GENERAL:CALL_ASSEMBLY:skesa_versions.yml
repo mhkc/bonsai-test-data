@@ -1,0 +1,4 @@
+CALL_BACTERIAL_GENERAL:CALL_ASSEMBLY:skesa:
+ skesa:
+  version: 2.4.0
+  container: /fs1/resources/containers/skesa.sif

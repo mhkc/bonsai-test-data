@@ -1,0 +1,68 @@
+[
+   {
+      "software": "postalignqc",
+      "version": null,
+      "result": {
+         "ins_size": 251,
+         "ins_size_dev": 135,
+         "mean_cov": 89,
+         "pct_above_x": {
+            "1": 99.98862316747523,
+            "10": 99.98791579964985,
+            "30": 99.73461917084701,
+            "100": 33.583761192622156,
+            "250": 0.0,
+            "500": 0.0,
+            "1000": 0.0
+         },
+         "n_reads": 1208572,
+         "n_mapped_reads": 1151949,
+         "n_read_pairs": 1200220,
+         "coverage_uniformity": 0.41379310344827586,
+         "quartile1": 71.0,
+         "median_cov": 87.0,
+         "quartile3": 107.0
+      },
+      "id": "postalignqc"
+   },
+   {
+      "software": "quast",
+      "version": null,
+      "result": {
+         "total_length": 2767514,
+         "reference_length": 2813862,
+         "largest_contig": 657860,
+         "n_contigs": 23,
+         "n50": 238067,
+         "ng50": 238067,
+         "assembly_gc": 32.69,
+         "reference_gc": 32.81,
+         "duplication_ratio": 1.0
+      },
+      "id": "quast"
+   },
+   {
+      "software": "gambitcore",
+      "version": null,
+      "result": {
+         "scientific_name": "Staphylococcus aureus",
+         "completeness": 98.83,
+         "assembly_core": "(3967/4014)",
+         "closest_accession": "GCF_900041785.1",
+         "closest_distance": 0.0347,
+         "assembly_kmers": 6934,
+         "species_kmers_mean": 7081,
+         "species_kmers_std_dev": 130,
+         "assembly_qc": "green"
+      },
+      "id": "gambitcore"
+   },
+   {
+      "software": "chewbbaca",
+      "version": null,
+      "result": {
+         "n_missing": 63
+      },
+      "id": "chewbbaca_missing_loci"
+   }
+]

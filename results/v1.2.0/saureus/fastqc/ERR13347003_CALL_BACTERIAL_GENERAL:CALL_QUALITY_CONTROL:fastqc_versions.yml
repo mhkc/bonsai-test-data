@@ -1,0 +1,4 @@
+CALL_BACTERIAL_GENERAL:CALL_QUALITY_CONTROL:fastqc:
+ fastqc:
+  version: 0.12.1
+  container: /fs1/resources/containers/fastqc.sif

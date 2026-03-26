@@ -1,0 +1,11 @@
+    CALL_BACTERIAL_GENERAL:CALL_SCREENING:resfinder:
+     resfinder:
+      version: 4.6.0
+      container: /fs1/resources/containers/resfinder.sif
+     resfinder_db:
+      version: 
+      container: /fs1/resources/containers/resfinder.sif
+     pointfinder_db:
+      version: 
+      container: /fs1/resources/containers/resfinder.sif
+    END_VERSIONS

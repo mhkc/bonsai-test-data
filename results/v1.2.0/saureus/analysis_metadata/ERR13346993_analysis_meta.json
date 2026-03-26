@@ -1,0 +1,24 @@
+{
+  "workflow_name": "mighty_curry",
+  "sample_name": "ERR13346993",
+  "lims_id": "ERR13346993",
+  "assay": "saureus",
+  "release_life_cycle": "development",
+  "sequencing_run": "ERR13346993",
+  "sequencing_platform": "illumina",
+  "sequencing_type": "PE",
+  "date": "2026-03-25T14:10:08.773984+01:00",
+  "pipeline": "main.nf",
+  "version": "1.2.0",
+  "commit": "null",
+  "configuration_files": [
+    "/fs1/pipelines/jasen_dev/nextflow.config"
+  ],
+  "analysis_profile": [
+    "staphylococcus_aureus",
+    "dev",
+    "illumina",
+    "singularity"
+  ],
+  "command": "nextflow run /fs1/pipelines/jasen_dev/main.nf -profile staphylococcus_aureus,dev,illumina,singularity -c /fs1/pipelines/jasen_dev/nextflow.config --csv /fs1/markus/bonsai-test-data/PRJEB77209.illumina.csv --queue normal -with-singularity /fs1/resources/containers/jasen_2023_02-28.sif -with-report /fs1/nextflow//reports/ERR13346992.jasen-saureus-dev.report.html -with-trace /fs1/nextflow//reports/ERR13346992.jasen-saureus-dev.trace.txt -with-timeline /fs1/nextflow//reports/ERR13346992.jasen-saureus-dev.timeline.html -work-dir /fs1/nextflow//ERR13346992.jasen-saureus-dev"
+}

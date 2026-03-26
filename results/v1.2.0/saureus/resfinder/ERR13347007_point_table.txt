@@ -1,0 +1,2 @@
+Mutation	Nucleotide change	Amino acid change	Resistance	PMID
+grlA p.I45M	ATT -> ATG	I -> M	Ciprofloxacin	9593159

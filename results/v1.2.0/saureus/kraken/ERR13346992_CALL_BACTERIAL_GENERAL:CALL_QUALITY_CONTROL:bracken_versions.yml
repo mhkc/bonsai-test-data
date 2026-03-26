@@ -1,0 +1,4 @@
+CALL_BACTERIAL_GENERAL:CALL_QUALITY_CONTROL:bracken:
+ bracken:
+  version: 2.8
+  container: /fs1/resources/containers/bracken.sif

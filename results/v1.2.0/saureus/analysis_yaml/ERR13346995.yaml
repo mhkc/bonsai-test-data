@@ -1,0 +1,33 @@
+amrfinder: /fs1/results_dev/jasen/saureus/amrfinderplus/ERR13346995_amrfinder.tsv
+chewbbaca: /fs1/results_dev/jasen/saureus/chewbbaca/ERR13346995_chewbbaca.tsv
+gambitcore: /fs1/results_dev/jasen/saureus/gambitcore/ERR13346995_gambitcore.tsv
+groups:
+- saureus
+igv_annotations:
+- index_uri: /access/jasen/saureus/bam/ERR13346995_bwa.bam.bai
+  name: Read coverage
+  type: alignment
+  uri: /access/jasen/saureus/bam/ERR13346995_bwa.bam
+- name: Predicted variants
+  type: variant
+  uri: /access/jasen/saureus/vcf/ERR13346995_freebayes.vcf
+kraken: /fs1/results_dev/jasen/saureus/kraken/ERR13346995_bracken.out
+lims_id: ERR13346995
+mlst: /fs1/results_dev/jasen/saureus/mlst/ERR13346995_mlst.json
+nextflow_run_info: /fs1/results_dev/jasen/saureus/analysis_metadata/ERR13346995_analysis_meta.json
+postalnqc: /fs1/results_dev/jasen/saureus/postalignqc/ERR13346995_qc.json
+quast: /fs1/results_dev/jasen/saureus/quast/ERR13346995_quast.tsv
+ref_genome_annotation: /fs1/pipelines/jasen_dev/assets/genomes/staphylococcus_aureus/GCF_000012045.1.gff
+ref_genome_sequence: /fs1/pipelines/jasen_dev/assets/genomes/staphylococcus_aureus/GCF_000012045.1.fasta
+resfinder: /fs1/results_dev/jasen/saureus/resfinder/ERR13346995_resfinder.json
+sample_id: ERR13346995
+sample_name: ERR13346995
+samtools: /fs1/results_dev/jasen/saureus/coverage/ERR13346995_bwa_mapcoverage.txt
+sccmec: /fs1/results_dev/jasen/saureus/sccmec/ERR13346995_sccmec.tsv
+ska_index: /access/jasen/saureus/ska/ERR13346995_ska_index.skf
+software_info:
+- /fs1/results_dev/jasen/saureus/resfinder/ERR13346995_resfinder_meta.json
+- /fs1/results_dev/jasen/saureus/virulencefinder/ERR13346995_virulencefinder_meta.json
+sourmash_signature: /access/jasen/saureus/sourmash/ERR13346995.sig
+spatyper: /fs1/results_dev/jasen/saureus/spatyper/ERR13346995_spatyper.tsv
+virulencefinder: /fs1/results_dev/jasen/saureus/virulencefinder/ERR13346995_virulencefinder.json

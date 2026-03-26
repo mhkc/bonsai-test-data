@@ -1,0 +1,4 @@
+CALL_BACTERIAL_GENERAL:CALL_TYPING:sccmec:
+ sccmec:
+  version: 1.2.0
+  container: /fs1/resources/containers/sccmec.sif

@@ -1,0 +1,3 @@
+Mutation	Nucleotide change	Amino acid change	Resistance	PMID
+grlA p.S80F	TCC -> TTC	S -> F	Ciprofloxacin	15848290
+gyrA p.S84A	TCA -> GCA	S -> A	Ciprofloxacin	7902228

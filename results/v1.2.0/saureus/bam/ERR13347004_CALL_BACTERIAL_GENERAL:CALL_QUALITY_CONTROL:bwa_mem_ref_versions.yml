@@ -1,0 +1,7 @@
+CALL_BACTERIAL_GENERAL:CALL_QUALITY_CONTROL:bwa_mem_ref:
+ bwa:
+  version: 0.7.17-r1188 
+  container: /fs1/resources/containers/bwakit.sif
+ samtools:
+  version: 1.12 
+  container: /fs1/resources/containers/bwakit.sif

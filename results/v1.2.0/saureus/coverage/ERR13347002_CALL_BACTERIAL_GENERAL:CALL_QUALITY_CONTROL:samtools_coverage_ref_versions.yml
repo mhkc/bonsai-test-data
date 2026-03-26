@@ -1,0 +1,5 @@
+    CALL_BACTERIAL_GENERAL:CALL_QUALITY_CONTROL:samtools_coverage_ref:
+    samtools:
+      version: 1.17 
+      container: /fs1/resources/containers/samtools.sif
+    END_VERSIONS
