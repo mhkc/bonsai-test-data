@@ -5,9 +5,13 @@
 *.fq.gz
 *.fastq
 *.fq
-*.skf  # temporarily remove until they can be minified
+
+# temporarily remove SKA until result has been minified
+ska
 
 # intermediate files from the pipeline or files used for local automation
+*.html
+*.zip
 *_mask.fasta*
 *.cdmpy
 analysis_result
